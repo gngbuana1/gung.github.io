@@ -1,0 +1,111 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner .carousel {
+    border-radius: 20%;
+}
+.product h3{
+    font-weight: bolder;
+    font-family: 'franklin gothic heavy';
+}
+.card {
+    margin-bottom: 20px;
+    margin-top:10px;
+}
+.about {
+    width: 100%;
+    padding: 78px 0px;
+    background-color: black;
+}
+.about img {
+    height: auto;
+    width: 420px;
+}
+.about text{
+    width: 550px;
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1 {
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: 'franklin gothic heavy';
+}
+.about-text h5 {
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    font-family: 'franklin gothic heavy';
+}
+.about-text h5 span{
+color: red;
+font-family: 'franklin gothic heavy';
+}
+.about-text p {
+    color: azure;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.contact {
+    padding-top: 7%;
+}
+.row.single-form {
+    box-shadow: 0 2px 20px -5px rgba(0, 0, 0,0.5);
+}
+.left {
+background-image: url(../foto/logo2.jpg);
+    padding: 200px 100px;
+    height: 100%;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.left h2{
+    font-family: roboto;
+    color: azure;
+    font-weight: 700;
+    font-size: 45px;
+}
+.left h2 span {
+    font-weight: 100;
+}
+.right {
+    padding: 70px 100px;
+    position: relative;
+}
+.form-control {
+    border: 2px solid #1a2226;
+}
+.right button {
+    border: none;
+    border-radius: 5%;
+    width: 180px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+}
+.right button :hover {
+    background-color: #1a2226;
+}
+.contact h3 {
+    font-weight: bolder;
+    text-align: center;
+    font-family:'franklin gothic heavy';
+    font-size: 65px;
+}
